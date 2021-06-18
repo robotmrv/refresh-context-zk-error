@@ -1,0 +1,2 @@
+#org.springframework.boot.Bootstrapper=\
+#com.example.zkerror.CustomZookeeperConfigServerBootstrapper

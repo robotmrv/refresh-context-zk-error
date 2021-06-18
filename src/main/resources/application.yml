@@ -1,1 +1,13 @@
 management.endpoints.web.exposure.include: '*'
+spring:
+  config:
+    import: "optional:configserver:,zookeeper:localhost:2181"
+  cloud:
+    config:
+      enabled: true
+      fail-fast: false
+      discovery:
+        enabled: false
+    zookeeper:
+      config:
+        enabled: true
